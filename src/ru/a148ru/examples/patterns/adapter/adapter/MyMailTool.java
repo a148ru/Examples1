@@ -17,7 +17,7 @@ public class MyMailTool implements MailInterface {
     public MailTool getYourMailTool(){
         return yourMailTool;
     }
-    public void setYourMailTool(MailTool newYourMailTool){
+    public final void setYourMailTool(MailTool newYourMailTool){
         yourMailTool = newYourMailTool;
     }
 }
