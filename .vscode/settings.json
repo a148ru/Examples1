@@ -3,5 +3,6 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ]
+    ],
+    "jdk.runConfig.cwd": "/Users/a148ru/Projects/Examples/Examples"
 }
