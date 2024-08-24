@@ -3,7 +3,9 @@ package ru.a148ru.examples.patterns.adapter.adapter;
 import ru.a148ru.examples.patterns.adapter.base.MailTool;
 
 public class MyMailTool implements MailInterface {
+    
     private MailTool yourMailTool;
+
     public MyMailTool(){
         yourMailTool = new MailTool();
         setYourMailTool(yourMailTool);
@@ -17,7 +19,7 @@ public class MyMailTool implements MailInterface {
     public MailTool getYourMailTool(){
         return yourMailTool;
     }
-    public final void setYourMailTool(MailTool newYourMailTool){
-        yourMailTool = newYourMailTool;
+    public final void setYourMailTool(MailTool yourMailTool){
+        this.yourMailTool = yourMailTool;
     }
 }
