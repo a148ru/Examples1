@@ -1,4 +1,5 @@
 
+import ru.a148ru.examples.patterns.adapter.adapter.Adapter;
 import ru.a148ru.examples.patterns.factory.*;
 
 
@@ -11,5 +12,7 @@ public class App {
         } catch (Exception e) {
             System.err.println(e.getMessage());
         }
+
+        new Adapter().runAdapter();
     }
 }
