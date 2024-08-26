@@ -9,6 +9,7 @@ public class TestShape {
 
         CalculateAreas ca = new CalculateAreas(shapeAreay);
         ca.sumAreas();
-        ca.output();
+        new OutputAreas(ca.sumTotal).console();
+        new OutputAreas(ca.sumTotal).HTML();
     }
 }
