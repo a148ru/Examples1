@@ -1,1 +1,2 @@
-Single Reponsibility Principle - Example
+# Single Reponsibility Principle
+Example
