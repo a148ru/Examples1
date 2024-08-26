@@ -4,6 +4,5 @@ bin/*
 bin
 ./bin
 /bin
-.gitignore
 .vscode/settings.json
 
