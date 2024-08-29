@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyClass",
+            "request": "launch",
+            "mainClass": "ru.a148ru.examples.solid.isp.MyClass",
+            "projectName": "Examples1_4c38f0d7"
+        },
+        {
+            "type": "java",
             "name": "OpenClosed",
             "request": "launch",
             "mainClass": "ru.a148ru.examples.solid.ocp.OpenClosed",
