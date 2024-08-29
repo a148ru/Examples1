@@ -8,6 +8,13 @@
             "type": "java",
             "name": "OpenClosed",
             "request": "launch",
+            "mainClass": "ru.a148ru.examples.solid.ocp.OpenClosed",
+            "projectName": "Examples1_4c38f0d7"
+        },
+        {
+            "type": "java",
+            "name": "OpenClosed",
+            "request": "launch",
             "mainClass": "ru.a148ru.examples.solid.ocp.t_anon.OpenClosed",
             "projectName": "Examples1_bbcbff5f"
         },

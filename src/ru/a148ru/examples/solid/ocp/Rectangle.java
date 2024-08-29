@@ -1,6 +1,6 @@
 package ru.a148ru.examples.solid.ocp;
 
-public class Rectangle {
+public class Rectangle extends Shape{
     protected double length;
     protected double width;
 
@@ -9,11 +9,8 @@ public class Rectangle {
         this.width = w;
     }
 
-    public double getLenght(){
-        return this.length; 
-    }
-
-    public double getWidth(){
-        return this.width;
+    @Override
+    public double getArea() {
+        return  length*width;
     }
 }
