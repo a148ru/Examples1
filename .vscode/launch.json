@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "ru.a148ru.examples.lambdas.passcode.Test",
+            "projectName": "Examples1_4c38f0d7"
+        },
+        {
+            "type": "java",
             "name": "TestMammal",
             "request": "launch",
             "mainClass": "ru.a148ru.examples.solid.dip.TestMammal",
