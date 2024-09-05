@@ -23,3 +23,10 @@ inventory.sort(new Comparator<Apple>(){
 });
 
 ```
+
+или
+
+```java
+
+inventory.sort((Apple a1, Apple a2) ->  a1.getWeigth().compareTo(a2.getWeigth()));
+```
