@@ -1,7 +1,7 @@
 package ru.a148ru.examples.bparam;
 
-import ru.a148ru.examples.lambdas.passcode.Apple;
-import ru.a148ru.examples.lambdas.passcode.Color;
+import ru.a148ru.examples.passcode.Apple;
+import ru.a148ru.examples.passcode.Color;
 
 public class AppleGreenColorPredicate implements ApplePredicate{
 

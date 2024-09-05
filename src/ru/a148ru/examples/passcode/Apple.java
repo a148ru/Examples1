@@ -1,4 +1,4 @@
-package ru.a148ru.examples.lambdas.passcode;
+package ru.a148ru.examples.passcode;
 
 public class Apple {
 

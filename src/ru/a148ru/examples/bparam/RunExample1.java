@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import ru.a148ru.examples.lambdas.passcode.Apple;
-import ru.a148ru.examples.lambdas.passcode.Color;
+import ru.a148ru.examples.passcode.Apple;
+import ru.a148ru.examples.passcode.Color;
 
 public class RunExample1 {
     public static void main(String[] args) {

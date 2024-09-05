@@ -1,4 +1,4 @@
-package ru.a148ru.examples.lambdas.passcode;
+package ru.a148ru.examples.passcode;
 
 import java.util.ArrayList;
 import java.util.List;
