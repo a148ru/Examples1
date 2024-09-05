@@ -2,6 +2,7 @@ package ru.a148ru.examples.bparam;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import ru.a148ru.examples.lambdas.passcode.Apple;
 import ru.a148ru.examples.lambdas.passcode.Color;
 
@@ -56,7 +57,32 @@ public class RunExample1 {
 
     //!---------------------------------------------------------------------------------------------
 
-    
+    // s5 стратегия
 
+    public static List<Apple> filterApples(List<Apple> inventory, ApplePredicate p){
+        List<Apple> result = new ArrayList<>();
+        for(Apple apple : inventory){
+            if(p.test(apple)){
+                result.add(apple);
+            }
+        }
+        return result;
+    }
+    
+    // s6 анонимные классы
+    public static List<Apple> redApples(List<Apple> list){
+        List<Apple> redApple = filterApples(list, new ApplePredicate() {
+            public boolean test(Apple apple){
+                return Color.RED.equals(apple.getColor());
+            }
+        });
+        return redApple;
+    }
+
+    // s7 лямбда
+    public static List<Apple> redApples2(List<Apple> list){
+        List<Apple> redApple = filterApples(list, (Apple apple) -> Color.RED.equals(apple.getColor()));
+        return redApple;
+    }
 
 }
